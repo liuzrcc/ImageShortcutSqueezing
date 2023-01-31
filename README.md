@@ -29,8 +29,8 @@ We identify the strong dependency of the perturbation frequency patterns on the 
 | [Hypocritical](https://arxiv.org/abs/2102.04716)  $(L_{\infty} = 8)$ | 71.54|61.86|85.45|
 | [TAP](https://proceedings.neurips.cc/paper/2021/hash/fe87435d12ef7642af67d9bc82a8b3cd-Abstract.html)  $(L_{\infty} = 8)$ | 8.17|9.11|83.87|
 | [SEP](https://openreview.net/forum?id=9MO7bjoAfIA)  $(L_{\infty} = 8)$ | 3.85 |3.57|84.37|
-| [LSP](https://dl.acm.org/doi/10.1145/3534678.3539241)  $(L_{2} = 1)$ | 19.07 |82.47|83.01|
-| [AR](https://openreview.net/forum?id=1vusesyN7E)  $(L_{2} = 1)$ | 13.28  |34.04|85.15|
+| [LSP](https://dl.acm.org/doi/10.1145/3534678.3539241)  $(L_{2} = 1.0)$ | 19.07 |82.47|83.01|
+| [AR](https://openreview.net/forum?id=1vusesyN7E)  $(L_{2} = 1.0)$ | 13.28  |34.04|85.15|
 | [OPS](https://openreview.net/forum?id=p7G8t5FVn2h)  $(L_{0} = 1)$ | 36.55  |42.44|82.53|
 
 
