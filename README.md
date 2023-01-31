@@ -55,7 +55,7 @@ To train on bit depth reducted poisons:
 `python main.py --exp_type $TYPEOFPOISONS --poison_path PATH/TO/POISON_FOLDER --poison_rate 1 --net resnet18 --BDR 2 --exp_path PATH/TO/SAVE/RESULTS/`
 
 
-### An example:
+### An example for quick start:
 
 We provide an example of training on CIFAR-10 poisoned by [Targeted Adversarial Poisoning (TAP)](https://proceedings.neurips.cc/paper/2021/hash/fe87435d12ef7642af67d9bc82a8b3cd-Abstract.html).
 Poisons are taken directlly from the official [TAP GitHub repository](https://github.com/lhfowl/adversarial_poisons). After `bash run.sh`, results can be found in `experiments/TAP/`
