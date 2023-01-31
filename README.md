@@ -17,7 +17,7 @@ trained on fully-trained surrogates exhibit spatially high-frequency patterns, a
 <img src="/images/examples.png" alt="examples">
 
 
-### Evaluation on 12 poisoning methods by ISS.
+### Evaluation results by ISS on 12 poisoning methods .
 
 | Poisons \ Countermeasures  | w/o  | Grayscale | JPEG-10|
 | ------------- | ------------- |------------- |-------------|
