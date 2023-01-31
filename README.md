@@ -58,7 +58,7 @@ To train on bit depth reducted poisons:
 ### An example for quick start:
 
 We provide an example of training on CIFAR-10 poisoned by [Targeted Adversarial Poisoning (TAP)](https://proceedings.neurips.cc/paper/2021/hash/fe87435d12ef7642af67d9bc82a8b3cd-Abstract.html).
-Poisons are taken directlly from the official [TAP GitHub repository](https://github.com/lhfowl/adversarial_poisons). After `bash run.sh`, results can be found in `experiments/TAP/`
+Poisons are taken directlly from the official [TAP GitHub repository](https://github.com/lhfowl/adversarial_poisons). After `bash train.sh`, results can be found in `experiments/TAP/`
 
 ### Cite our work:
 
