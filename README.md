@@ -5,7 +5,7 @@ Countering Perturbative Availability Poisons with Compression"]().
 ### Overview
 
 Our paper verifies that 12 state-of-the-art Perturvative Availability Poisoning (PAP) 
-methods are vulnerable to Image Shortcut Squeezing (ISS), which is based on simple compression (i.e., grayscale compression, JPEG compression, and bit depth reduction). For example, 
+methods are vulnerable to Image Shortcut Squeezing (ISS), which is based on simple compression (i.e., grayscale and JPEG compressions). For example, 
 on average, ISS restores the CIFAR-10 model accuracy to 81.73%, surpassing the previous best preprocessing-based countermeasures by 37.97% absolute.
 We hope that further studies could consider various (simple) countermeasures during the development of new poisoning methods.
 
@@ -46,10 +46,6 @@ To train on JPEG compressed poisons:
 
 `python main.py --exp_type $TYPEOFPOISONS --poison_path PATH/TO/POISON_FOLDER --poison_rate 1 --net resnet18 --jpeg 10 --exp_path PATH/TO/SAVE/RESULTS/`
    
-   
-To train on bit depth reducted poisons: 
-
-`python main.py --exp_type $TYPEOFPOISONS --poison_path PATH/TO/POISON_FOLDER --poison_rate 1 --net resnet18 --BDR 2 --exp_path PATH/TO/SAVE/RESULTS/`
 
 ### An example for quick start:
 
