@@ -63,12 +63,12 @@ Classification performance when training solely on TAP poisons can be checked by
 Please cite our paper if you use this implementation in your research.
 
 ```
-@misc{liu2023ISS,
+@misc{liu2023image,
       title={Image Shortcut Squeezing: Countering Perturbative Availability Poisons with Compression}, 
       author={Zhuoran Liu and Zhengyu Zhao and Martha Larson},
-      eprint={},
-      archivePrefix={arXiv},
-      year={2023}
+      year={2023},
+      eprint={2301.13838},
+      archivePrefix={arXiv}
 }
 ```
 
