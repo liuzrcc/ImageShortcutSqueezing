@@ -1,5 +1,5 @@
 This repository contains the code of our paper ["Image Shortcut Squeezing:
-Countering Perturbative Availability Poisons with Compression"]().
+Countering Perturbative Availability Poisons with Compression"](https://arxiv.org/abs/2301.13838).
 
 
 ### Overview
