@@ -92,9 +92,9 @@ logger.info("Test transformation %s" % (transform_test))
 
 
 if args.poison_type == 'CLEAN':
-    trainset = ST_load(T=transform_train , poison_rate=args.poison_rate, non_poison_indices=non_pois_np)
+    trainset = ST_load(T=transform_train, poison_rate=args.poison_rate, non_poison_indices=non_pois_np)
 else:
-    trainset = folder_load(path = args.poison_path, T=transform_train , poison_rate=args.poison_rate, non_poison_indices=non_pois_np)
+    trainset = folder_load(path = args.poison_path, T=transform_train, poison_rate=args.poison_rate, non_poison_indices=non_pois_np)
 testset = torchvision.datasets.CIFAR10(root='~/data', train=False, download=True, transform=transform_test)
 
 
