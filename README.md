@@ -4,7 +4,7 @@ Countering Perturbative Availability Poisons with Compression"](https://arxiv.or
 
 ### Overview
 
-Our paper verifies that 12 state-of-the-art Perturvative Availability Poisoning (PAP) 
+Our paper verifies that 12 state-of-the-art Perturbative Availability Poisoning (PAP) 
 methods are vulnerable to Image Shortcut Squeezing (ISS), which is based on simple compression (i.e., grayscale and JPEG compressions). For example, 
 on average, ISS restores the CIFAR-10 model accuracy to 81.73%, surpassing the previous best preprocessing-based countermeasures by 37.97% absolute.
 We hope that further studies could consider various (simple) countermeasures during the development of new poisoning methods.
